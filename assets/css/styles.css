@@ -290,7 +290,7 @@ img {
 .home_container {
   position: relative;
   height: calc(100vh - var(--header-height));
-  grid-template-rows: repeat(2, max-content);
+  /* grid-template-rows: repeat(2, max-content);*//
   align-content: space-around;
   row-gap: 0.5rem;
 }
